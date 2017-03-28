@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+}
+body {
+
+  height: 100%;
+  padding: 0px;
+}
+.container-fluid {
+  height: 100%;
+  padding:0px;
+}
+#view {
+ padding: 0px;
+  margin: auto;
+ background-color: black;
+  background-image: url("files/night.jpg");
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+#window {
+  margin: 0;
+  padding: 5%;
+  background-image: url("files/window_transparent_png.png");
+  background-size: stretch;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-width: 600px;
+}
+
+#weather {
+  width: 60%;
+  max-width: 500px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin: auto;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.75)
+}
+#loc {
+  font-weight: 700;
+  margin: 10px;
+}
+.name{
+    font-size: small;
+margin: 10px 0px 8px 0px;    text-align: center;
+}
+
+#celsius {
+cursor: pointer;
+
+}
+#fahrenheit {
+  cursor: pointer;
+  color: gray;
+}
+#pTemp {
+  display: none;
+}
+p {
+  padding: 0px 2px;
+  text-align: center;
+}
+#p2 {
+  font-size:small;
+  color: grey;
+  display: none;
+  margin: 5px 0px 5px 0px;
+}
